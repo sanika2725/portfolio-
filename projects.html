@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <nav class="navbar">
+        <div class="logo">Portfolio.</div>
+
+        <ul class="nav-links" id="navLinks">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="projects.html" class="active">Projects</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+
+        <div class="menu-btn" onclick="toggleMenu()">☰</div>
+    </nav>
+</header>
+
+<section class="projects">
+    <h1 class="heading">My Projects</h1>
+
+    <div class="project-container">
+
+        <div class="project-card">
+            <h2>AI Image Background Remover</h2>
+            <p>Developed a U-Net based model that removes image backgrounds with high accuracy and speed.</p>
+        </div>
+
+        <div class="project-card">
+            <h2>Quantum Climate Simulator</h2>
+            <p>Used quantum machine learning to simulate and forecast climate change patterns.</p>
+        </div>
+
+        <div class="project-card">
+            <h2>Smart Hostel Room Allocator</h2>
+            <p>Combined hill climbing and fuzzy logic to optimize hostel room assignments.</p>
+        </div>
+          <img src="project.jpg" alt="Sanika" class="profile-img" style="width:400px; height:auto; border-radius:20px;">
+    </div>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>

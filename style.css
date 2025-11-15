@@ -1,0 +1,173 @@
+/* ---------- Global ---------- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background: #0c0f1a;
+    color: white;
+}
+
+/* ---------- Navbar ---------- */
+.navbar {
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 25px;
+    font-weight: bold;
+    color: #00eaff;
+}
+
+.nav-links {
+    display: flex;
+    gap: 30px;
+}
+
+.nav-links a {
+    color: #d8d8d8;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.nav-links a.active,
+.nav-links a:hover {
+    color: #00eaff;
+}
+
+.menu-btn {
+    display: none;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+/* ---------- Hero Section ---------- */
+.hero {
+    display: flex;
+    justify-content: space-between;
+    padding: 80px 5%;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.hero-text h1 {
+    font-size: 52px;
+    font-weight: 700;
+}
+
+.hero-text h2 {
+    margin: 10px 0;
+    font-size: 26px;
+}
+
+.highlight {
+    color: #00eaff;
+}
+
+.hero-text p {
+    width: 75%;
+    margin: 20px 0;
+    color: #bfbfbf;
+}
+
+.social-icons a {
+    margin-right: 15px;
+    font-size: 24px;
+    color: #00eaff;
+}
+
+.btn {
+    padding: 12px 25px;
+    background: #00eaff;
+    color: black;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+/* ---------- Hero Image ---------- */
+.hero-img {
+    position: relative;
+}
+
+.hero-img img {
+    width: 330px;
+    border-radius: 20px;
+    position: relative;
+    z-index: 2;
+}
+
+.glow {
+    position: absolute;
+    width: 330px;
+    height: 330px;
+    background: #00eaff;
+    filter: blur(80px);
+    border-radius: 50%;
+    top: 20%;
+    left: 0;
+    z-index: 1;
+}
+
+/* ---------- Projects ---------- */
+.projects {
+    padding: 80px 5%;
+}
+
+.heading {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.project-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+    gap: 30px;
+}
+
+
+.project-card {
+    background: #111420;
+    padding: 25px;
+    border-radius: 12px;
+    border: 1px solid #1f2a40;
+}
+
+/* ---------- Contact ---------- */
+.contact-section {
+    padding: 80px 5%;
+}
+
+.contact-form {
+    max-width: 450px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+}
+
+.contact-form button {
+    background: #00eaff;
+    color: #000;
+    padding: 12px;
+    border-radius: 8px;
+    border: none;
+    font-weig
